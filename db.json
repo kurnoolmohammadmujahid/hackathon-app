@@ -1,0 +1,642 @@
+{
+  "applicationId": [
+    "7253738090900"
+  ],
+  "accountOpening": [
+    {
+      "id": 1,
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ]
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "Yes",
+          "yearOfExp": "12",
+          "optionsTradingKnowledge": "knowledgeble",
+          "typeOfOptionTradingDone": "Long Calls/Puts,Covered Calls/Puts,Spread,Never trade option before",
+          "typeOfOptionTradinglikeToTrade": "Long Calls/Puts,Covered Calls/Puts,Spread,Never trade option before"
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "Mr/M",
+          "fName": "Mohammad",
+          "lName": "Mujahid",
+          "initial": "K",
+          "dob": "1926-06-08T18:30:00.000Z",
+          "sinNumber": "giuwqefgi76",
+          "canadaCitizenship": "Canadian"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "Yes",
+          "yearOfExp": "10",
+          "optionsTradingKnowledge": "expert",
+          "typeOfOptionTradingDone": ",Long Calls/Puts",
+          "typeOfOptionTradinglikeToTrade": "Covered Calls/Puts",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "Dr",
+          "fName": "Mohammad",
+          "lName": "Mujahid",
+          "initial": "K",
+          "dob": "2021-03-09T18:30:00.000Z",
+          "sinNumber": "348756834bghjk",
+          "canadaCitizenship": "Other Country"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 4
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 5
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": [
+            ""
+          ],
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 6
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 7
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 8
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 9
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 10
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 11
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 12
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 13
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": [
+            ""
+          ],
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 14
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": [
+            ""
+          ],
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 15
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": [
+            ""
+          ],
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 16
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": [
+            ""
+          ],
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 17
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 18
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "No",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": [
+            ""
+          ],
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 19
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 20
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": [
+            ""
+          ],
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 21
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "Yes",
+          "yearOfExp": "8",
+          "optionsTradingKnowledge": "limited",
+          "typeOfOptionTradingDone": "Long Calls/Puts,Covered Calls/Puts,Spread,Never trade option before",
+          "typeOfOptionTradinglikeToTrade": "Long Calls/Puts,Covered Calls/Puts,Spread",
+          "PromoCode": "ABCD12345"
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "Mr/M",
+          "fName": "Mohammad",
+          "lName": "Mujahid",
+          "initial": "K",
+          "dob": "1993-12-05T18:30:00.000Z",
+          "sinNumber": "12344635hdzfh",
+          "canadaCitizenship": "Canadian"
+        }
+      ],
+      "id": 22
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": [
+            ""
+          ],
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 23
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": [
+            ""
+          ],
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "Mr/M",
+          "fName": "shadja",
+          "lName": "gfksk",
+          "initial": "sfgksk",
+          "dob": "2021-03-16T18:30:00.000Z",
+          "sinNumber": "fdhdfjh",
+          "canadaCitizenship": "Canadian"
+        }
+      ],
+      "id": 24
+    },
+    {
+      "accountDetails": [
+        {
+          "optionsTrading": "",
+          "yearOfExp": "",
+          "optionsTradingKnowledge": "",
+          "typeOfOptionTradingDone": "",
+          "typeOfOptionTradinglikeToTrade": "",
+          "PromoCode": ""
+        }
+      ],
+      "personalInfo": [
+        {
+          "prefix": "",
+          "fName": "",
+          "lName": "",
+          "initial": "",
+          "dob": "",
+          "sinNumber": "",
+          "canadaCitizenship": ""
+        }
+      ],
+      "id": 25
+    }
+  ],
+  "promoCodeList": [
+    {
+      "code": "ABCD12345",
+      "link": "https://www.bmo.com/main/personal"
+    },
+    {
+      "code": "EFGH67890",
+      "link": "https://www.bmo.com/main/personal"
+    },
+    {
+      "code": "IJKL01234",
+      "link": "https://www.bmo.com/main/personal"
+    },
+    {
+      "code": "MNOP56789",
+      "link": "https://www.bmo.com/main/personal"
+    }
+  ]
+}
