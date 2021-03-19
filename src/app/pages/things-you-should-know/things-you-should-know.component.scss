@@ -1,0 +1,22 @@
+.title{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price{
+    font-size: 11px;
+}
+
+.card-width{
+    width: 18rem;
+}
+
+.card-img, .card-img-bottom, .card-img-top {
+    flex-shrink: 0;
+    width: 30% !important;
+    margin-left: 33%  !important;
+}
+
+.card {
+    border: 0;
+}

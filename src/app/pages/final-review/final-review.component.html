@@ -1,0 +1,131 @@
+<div id="container">
+    <div id="header">
+        <app-header></app-header>
+    </div>
+    <div id="sidebar">
+        <app-side-nav></app-side-nav>
+    </div>
+    <div id="content">
+        <div class="container fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2><b>Review Your Information</b></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Lorem
+                        ipsum,
+                        or lipsum as it is sometimes known, is dummy text used in laying out
+                        print,
+                        graphic or web
+                        designs.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10">
+                    <h3><b>ACCOUNT SELECTION</b></h3>
+                </div>
+                <div class="col-md-2" (click)="edit1()">
+                    <h3 style="color: #0000ffa3;float: right;"><b>EDIT</b></h3>
+                </div>
+            </div>
+            <hr style="margin-top: 0;">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Options trading</h5>
+                </div>
+                <div class="col-md-4">
+                    <h5>Years of experience tarding options</h5>
+                </div>
+                <div class="col-md-4">
+                    <h5>Options trading knowledge</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4><b>{{totalResponse.accountDetails[0].optionsTrading?totalResponse.accountDetails[0].optionsTrading:
+                            '-'}}</b></h4>
+                </div>
+                <div class="col-md-4">
+                    <h4><b>{{totalResponse.accountDetails[0].yearOfExp?totalResponse.accountDetails[0].yearOfExp:
+                        '-'}}</b></h4>
+            </div>
+                <div class="col-md-4">
+                    <h4><b>{{totalResponse.accountDetails[0].optionsTradingKnowledge?totalResponse.accountDetails[0].optionsTradingKnowledge:
+                        '-'}}</b></h4>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-4">
+                    <h5>Type of options trading you've done</h5>
+                </div>
+                <div class="col-md-4">
+                    <h5>Type of options you would like to trade</h5>
+                </div>
+                <div class="col-md-4">
+                    <h5>Promo code</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4><b>{{totalResponse.accountDetails[0].typeOfOptionTradingDone?totalResponse.accountDetails[0].typeOfOptionTradingDone:
+                        '-'}}</b></h4>
+                </div>
+                <div class="col-md-4">
+                    <h4><b>{{totalResponse.accountDetails[0].typeOfOptionTradinglikeToTrade?totalResponse.accountDetails[0].typeOfOptionTradinglikeToTrade:
+                        '-'}}</b></h4>
+                </div>
+                <div class="col-md-4">
+                    <h4><b>{{totalResponse.accountDetails[0].PromoCode?totalResponse.accountDetails[0].PromoCode:
+                        'None'}}</b></h4>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-10">
+                    <h3><b>PERSONAL INFORMATION</b></h3>
+                </div>
+                <div class="col-md-2" (click)="edit2()">
+                    <h3 style="color: #0000ffa3;float: right;"><b>EDIT</b></h3>
+                </div>
+            </div>
+            <hr style="margin-top: 0;">
+
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Applicant's legal name</h5>
+                </div>
+                <div class="col-md-4">
+                    <h5>Date of birth</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4><b>{{totalResponse.personalInfo[0].prefix}} {{totalResponse.personalInfo[0].initial}} {{totalResponse.personalInfo[0].fName}} {{totalResponse.personalInfo[0].lName}}
+                        </b></h4>
+                </div>
+                <div class="col-md-4">
+                    <h4><b>{{totalResponse.personalInfo[0].dob}}</b></h4>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-4">
+                    <h5>Citizenship</h5>
+                </div>
+                <div class="col-md-4">
+                    <h5>Social Insurance Number</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4><b>{{totalResponse.personalInfo[0].canadaCitizenship}}</b></h4>
+                </div>
+                <div class="col-md-4">
+                    <h4><b>{{totalResponse.personalInfo[0].sinNumber}}</b></h4>
+                </div>
+            </div>
+            <button (click)="submit()" pButton style="float: right;margin-bottom: 10px;" pRipple type="button" label="SUBMIT"
+                class="p-button-rounded"></button>
+        </div>
+    </div>
+</div>

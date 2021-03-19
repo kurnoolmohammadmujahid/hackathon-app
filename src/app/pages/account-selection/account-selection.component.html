@@ -1,0 +1,203 @@
+<div id="container">
+    <div id="header">
+        <app-header></app-header>
+    </div>
+    <div id="sidebar">
+        <app-side-nav></app-side-nav>
+    </div>
+    <div id="content">
+        <div class="container fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2><b>Select your account</b></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card" [ngClass]="{'card-select-broder': step == 'step1'}" (click)="select('step1')"
+                        style="width: 18rem;">
+                        <div class="highlight" *ngIf="step == 'step1'"></div>
+                        <div class="card-body card-height">
+                            <p class="card-title"><b>Tax Free Saving Account(TFSA)</b></p>
+                            <p class="card-text">Select</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" [ngClass]="{'card-select-broder': step == 'step2'}" (click)="select('step2')"
+                        style="width: 18rem;">
+                        <div class="highlight" *ngIf="step == 'step2'"></div>
+                        <div class="card-body card-height">
+                            <p class="card-title"><b>Registered Retirement Saving Plan(RRSP)</b></p>
+                            <p class="card-text">Select</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" [ngClass]="{'card-select-broder': step == 'step3'}" (click)="select('step3')"
+                        style="width: 18rem;">
+                        <div class="highlight" *ngIf="step == 'step3'"></div>
+                        <div class="card-body card-height">
+                            <p class="card-title"><b>Cash(non-registered)</b></p>
+                            <p class="card-text">Select</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 5px;">
+                <div class="col-md-4">
+                    <div class="card" [ngClass]="{'card-select-broder': step == 'step4'}" (click)="select('step4')"
+                        style="width: 18rem;">
+                        <div class="highlight" *ngIf="step == 'step4'"></div>
+                        <div class="card-body card-height">
+                            <p class="card-title"><b>Special Registered Retirement Saving Plan(Spousal RRSP)</b></p>
+                            <p class="card-text">Select</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" [ngClass]="{'card-select-broder': step == 'step5'}" (click)="select('step5')"
+                        style="width: 18rem;">
+                        <div class="highlight" *ngIf="step == 'step5'"></div>
+                        <div class="card-body card-height">
+                            <p class="card-title"><b>Other Accounts</b></p>
+                            <p class="card-text" style="font-size: 10px;">Include margin, joints, registered, corporate
+                                and non personal accounts
+                            </p>
+                            <p class="card-text">LEARN MORE</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-10" *ngIf="step == 'step1' || step == 'step2' || step == 'step4'">
+                <div class="col-md-12">
+                    <h2><b>Want to add options trading?</b>
+
+                        <i class="pi pi-info-circle" style="font-size: 1rem;padding-left: 16px;"></i>
+                    </h2>
+                </div>
+            </div>
+            <div class="row margin-top-10" *ngIf="step == 'step1' || step == 'step2' || step == 'step4'">
+                <div style="padding: 0 10px;"> <button mat-button color="primary"
+                        (click)="selectTradingWindow('Yes')">Yes</button> </div>
+                <div> <button mat-button (click)="selectTradingWindow('No')">No</button></div>
+            </div>
+            <div *ngIf="optionsTrading == 'Yes'">
+                <div class="row margin-top-10">
+                    <div class="col-md-12">
+                        How many year of experince do you have in trading?
+                    </div>
+                </div>
+                <div class="row margin-top-10">
+                    <div class="col-md-12">
+                        <form class="example-form">
+                            <mat-form-field class="example-full-width">
+                                <mat-label>Number of years</mat-label>
+                                <input matInput [(ngModel)]="yearOfExp" [ngModelOptions]="{standalone: true}">
+                            </mat-form-field>
+                        </form>
+                    </div>
+                </div>
+                <div class="row margin-top-10">
+                    <div class="col-md-12">
+                        How would you describe your options trading knowledge?
+                    </div>
+                </div>
+                <div class="row margin-top-10">
+                    <div class="col-md-12">
+                        <mat-form-field appearance="fill">
+                            <mat-label>Options trading Knowledge</mat-label>
+                            <select matNativeControl [(ngModel)]="optionsTradingKnowledge"
+                                [ngModelOptions]="{standalone: true}" name="car">
+                                <option value="none">None</option>
+                                <option value="limited">Limited</option>
+                                <option value="knowledgeble">Knowledgeble</option>
+                                <option value="expert">Expert</option>
+                            </select>
+                        </mat-form-field>
+                    </div>
+                </div>
+                <div class="row margin-top-10">
+                    <div class="col-md-12">
+                        What type of options have you trade before?
+                    </div>
+                </div>
+                <div class="row margin-top-10">
+                    <div class="col-md-12">
+                        <p-listbox [options]="cities" [(ngModel)]="typeOfOptionTradingDone" [metaKeySelection]="false"
+                            [checkbox]="true" [multiple]="true" optionLabel="name">
+                            <ng-template let-country pTemplate="item">
+                                <div class="country-item">
+                                    <div>{{country}}</div>
+                                </div>
+                            </ng-template>
+                        </p-listbox>
+                    </div>
+                </div>
+                <div class="row margin-top-10">
+                    <div class="col-md-12">
+                        What type of options whould you like to trade in your account?
+                    </div>
+                </div>
+                <div class="row margin-top-10">
+                    <div class="col-md-12">
+                        <p-listbox [options]="cities" [(ngModel)]="typeOfOptionTradinglikeToTrade"
+                            [metaKeySelection]="false" [checkbox]="true" [multiple]="true" optionLabel="name">
+                            <ng-template let-country pTemplate="item">
+                                <div class="country-item">
+                                    <div>{{country}}</div>
+                                </div>
+                            </ng-template>
+                        </p-listbox>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        Covered puts can only be trade in non registered accounts
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <h2><b>Promo Code</b></h2>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <p>Lorem ipsum,
+                        or lipsum as it is sometimes known, is dummy text used in laying out
+                        print,
+                        graphic or web
+                        designs.Lorem ipsum,
+                        or lipsum as it is sometimes known, is dummy text used in laying out
+                        print,
+                        graphic or web
+                        designs.</p>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <form class="example-form">
+                        <mat-form-field class="example-full-width">
+                            <mat-label>Enter Promo Code</mat-label>
+                            <input matInput [(ngModel)]="PromoCode" [ngModelOptions]="{standalone: true}">
+                        </mat-form-field>
+                    </form>
+                </div>
+            </div>
+            {{validMsg}}{{failedMsg}}
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <section class="example-section">
+                        <mat-checkbox class="example-margin" [(ngModel)]="selectedCountries4">To continue, please accept
+                            the
+                            promotions and <a href="window.open('https://www.bmo.com/main/personal');">terms and
+                                condition</a></mat-checkbox>
+                    </section>
+                </div>
+            </div>
+            <button (click)="navigate()" pButton style="float: right;margin-bottom: 10px;" pRipple type="button"
+                label="Continue" class="p-button-rounded"></button>
+        </div>
+    </div>
+</div>

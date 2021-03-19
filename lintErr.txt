@@ -1,0 +1,181 @@
+C:\Users\kurnoolmohammad.m\workspace\bmo-demo\bmoDemo>ng lint
+TSLint's support is discontinued and we're deprecating its support in Angular CLI.
+To opt-in using the community driven ESLint builder, see: https://github.com/angular-eslint/angular-eslint#migrating-an-angular-cli-project-from-codelyzer-and-tslint.
+Linting "bmoDemo"...
+C:/Users/kurnoolmohammad.m/workspace/bmo-demo/bmoDemo/src/app/app.component.ts:10:3
+ERROR: 10:3    typedef                    expected call-signature: 'onActivate' to have a typedef
+
+C:/Users/kurnoolmohammad.m/workspace/bmo-demo/bmoDemo/src/app/guard/valid-session.guard.ts:9:3
+ERROR: 9:3     typedef                    expected call-signature: 'canActivate' to have a typedef
+
+C:/Users/kurnoolmohammad.m/workspace/bmo-demo/bmoDemo/src/app/pages/account-selection/account-selection.component.ts:64:3
+ERROR: 64:3    typedef                    expected call-signature: 'select' to have a typedef
+ERROR: 68:3    typedef                    expected call-signature: 'evaluatePromoCode' to have a typedef
+ERROR: 72:16   prefer-const               Identifier 'code' is never reassigned; use 'const' instead of 'let'.
+ERROR: 73:23   triple-equals              == should be ===
+ERROR: 80:34   triple-equals              == should be ===
+ERROR: 84:7    align                      statements are not aligned
+ERROR: 87:3    typedef                    expected call-signature: 'navigate' to have a typedef
+ERROR: 88:34   triple-equals              == should be ===
+ERROR: 89:11   prefer-const               Identifier 'postObj' is never reassigned; use 'const' instead of 'let'.
+ERROR: 90:9    object-literal-key-quotes  Unnecessarily quoted property 'optionsTrading' found.
+ERROR: 91:9    object-literal-key-quotes  Unnecessarily quoted property 'yearOfExp' found.
+ERROR: 92:9    object-literal-key-quotes  Unnecessarily quoted property 'optionsTradingKnowledge' found.
+ERROR: 93:9    object-literal-key-quotes  Unnecessarily quoted property 'typeOfOptionTradingDone' found.
+ERROR: 94:9    object-literal-key-quotes  Unnecessarily quoted property 'typeOfOptionTradinglikeToTrade' found.
+ERROR: 95:9    object-literal-key-quotes  Unnecessarily quoted property 'PromoCode' found.
+ERROR: 96:8    semicolon                  Missing semicolon
+ERROR: 100:57  semicolon                  Missing semicolon
+ERROR: 107:3   typedef                    expected call-signature: 'selectTradingWindow' to have a typedef
+
+C:/Users/kurnoolmohammad.m/workspace/bmo-demo/bmoDemo/src/app/pages/final-review/final-review.component.ts:14:5
+ERROR: 14:5    align                      parameters are not aligned
+ERROR: 22:3    typedef                    expected call-signature: 'edit1' to have a typedef
+ERROR: 23:26   quotemark                  " should be '
+ERROR: 23:48   semicolon                  Missing semicolon
+ERROR: 26:3    typedef                    expected call-signature: 'edit2' to have a typedef
+ERROR: 27:26   quotemark                  " should be '
+ERROR: 27:51   semicolon                  Missing semicolon
+ERROR: 30:3    typedef                    expected call-signature: 'submit' to have a typedef
+ERROR: 31:11   quotemark                  " should be '
+ERROR: 31:63   semicolon                  Missing semicolon
+ERROR: 33:26   quotemark                  " should be '
+ERROR: 33:53   semicolon                  Missing semicolon
+
+C:/Users/kurnoolmohammad.m/workspace/bmo-demo/bmoDemo/src/app/pages/personal-information/personal-information.component.ts:22:5
+ERROR: 22:5    align                      parameters are not aligned
+ERROR: 23:5    align                      parameters are not aligned
+ERROR: 26:19   quotemark                  " should be '
+ERROR: 27:18   quotemark                  " should be '
+ERROR: 28:18   quotemark                  " should be '
+ERROR: 29:20   quotemark                  " should be '
+ERROR: 30:16   quotemark                  " should be '
+ERROR: 31:22   quotemark                  " should be '
+ERROR: 32:30   quotemark                  " should be '
+ERROR: 47:3    typedef                    expected call-signature: 'navigate' to have a typedef
+ERROR: 49:19   triple-equals              != should be !==
+ERROR: 50:18   triple-equals              != should be !==
+ERROR: 51:18   triple-equals              != should be !==
+ERROR: 52:20   triple-equals              != should be !==
+ERROR: 53:16   triple-equals              != should be !==
+ERROR: 54:22   triple-equals              != should be !==
+ERROR: 55:30   triple-equals              != should be !==
+ERROR: 57:11   prefer-const               Identifier 'postObj' is never reassigned; use 'const' instead of 'let'.
+ERROR: 58:9    object-literal-key-quotes  Unnecessarily quoted property 'prefix' found.
+ERROR: 58:9    quotemark                  " should be '
+ERROR: 59:9    object-literal-key-quotes  Unnecessarily quoted property 'fName' found.
+ERROR: 59:9    quotemark                  " should be '
+ERROR: 60:9    object-literal-key-quotes  Unnecessarily quoted property 'lName' found.
+ERROR: 60:9    quotemark                  " should be '
+ERROR: 61:9    object-literal-key-quotes  Unnecessarily quoted property 'initial' found.
+ERROR: 61:9    quotemark                  " should be '
+ERROR: 62:9    object-literal-key-quotes  Unnecessarily quoted property 'dob' found.
+ERROR: 62:9    quotemark                  " should be '
+ERROR: 63:9    object-literal-key-quotes  Unnecessarily quoted property 'sinNumber' found.
+ERROR: 63:9    quotemark                  " should be '
+ERROR: 64:9    object-literal-key-quotes  Unnecessarily quoted property 'canadaCitizenship' found.
+ERROR: 64:9    quotemark                  " should be '
+ERROR: 65:8    semicolon                  Missing semicolon
+ERROR: 69:57   semicolon                  Missing semicolon
+ERROR: 74:32   semicolon                  Missing semicolon
+ERROR: 78:3    typedef                    expected call-signature: 'citizen' to have a typedef
+ERROR: 82:3    typedef                    expected call-signature: 'prefixSelect' to have a typedef
+ERROR: 86:2    eofline                    file should end with a newline
+
+C:/Users/kurnoolmohammad.m/workspace/bmo-demo/bmoDemo/src/app/pages/things-you-should-know/things-you-should-know.component.ts:16:5
+ERROR: 16:5    object-literal-key-quotes  Unnecessarily quoted property 'accountDetails' found.
+ERROR: 16:5    quotemark                  " should be '
+ERROR: 18:9    object-literal-key-quotes  Unnecessarily quoted property 'optionsTrading' found.
+ERROR: 18:9    quotemark                  " should be '
+ERROR: 18:27   quotemark                  " should be '
+ERROR: 19:9    object-literal-key-quotes  Unnecessarily quoted property 'yearOfExp' found.
+ERROR: 19:9    quotemark                  " should be '
+ERROR: 19:22   quotemark                  " should be '
+ERROR: 20:9    object-literal-key-quotes  Unnecessarily quoted property 'optionsTradingKnowledge' found.
+ERROR: 20:9    quotemark                  " should be '
+ERROR: 20:36   quotemark                  " should be '
+ERROR: 21:9    object-literal-key-quotes  Unnecessarily quoted property 'typeOfOptionTradingDone' found.
+ERROR: 21:9    quotemark                  " should be '
+ERROR: 21:36   quotemark                  " should be '
+ERROR: 22:9    object-literal-key-quotes  Unnecessarily quoted property 'typeOfOptionTradinglikeToTrade' found.
+ERROR: 22:9    quotemark                  " should be '
+ERROR: 22:43   quotemark                  " should be '
+ERROR: 23:9    object-literal-key-quotes  Unnecessarily quoted property 'PromoCode' found.
+ERROR: 23:9    quotemark                  " should be '
+ERROR: 23:22   quotemark                  " should be '
+ERROR: 26:5    object-literal-key-quotes  Unnecessarily quoted property 'personalInfo' found.
+ERROR: 26:5    quotemark                  " should be '
+ERROR: 28:9    object-literal-key-quotes  Unnecessarily quoted property 'prefix' found.
+ERROR: 28:9    quotemark                  " should be '
+ERROR: 28:19   quotemark                  " should be '
+ERROR: 29:9    object-literal-key-quotes  Unnecessarily quoted property 'fName' found.
+ERROR: 29:9    quotemark                  " should be '
+ERROR: 29:18   quotemark                  " should be '
+ERROR: 30:9    object-literal-key-quotes  Unnecessarily quoted property 'lName' found.
+ERROR: 30:9    quotemark                  " should be '
+ERROR: 30:18   quotemark                  " should be '
+ERROR: 31:9    object-literal-key-quotes  Unnecessarily quoted property 'initial' found.
+ERROR: 31:9    quotemark                  " should be '
+ERROR: 31:20   quotemark                  " should be '
+ERROR: 32:9    object-literal-key-quotes  Unnecessarily quoted property 'dob' found.
+ERROR: 32:9    quotemark                  " should be '
+ERROR: 32:16   quotemark                  " should be '
+ERROR: 33:9    object-literal-key-quotes  Unnecessarily quoted property 'sinNumber' found.
+ERROR: 33:9    quotemark                  " should be '
+ERROR: 33:22   quotemark                  " should be '
+ERROR: 34:9    object-literal-key-quotes  Unnecessarily quoted property 'canadaCitizenship' found.
+ERROR: 34:9    quotemark                  " should be '
+ERROR: 34:30   quotemark                  " should be '
+ERROR: 39:5    align                      parameters are not aligned
+ERROR: 40:5    align                      parameters are not aligned
+ERROR: 48:3    typedef                    expected call-signature: 'navigate' to have a typedef
+ERROR: 51:55   semicolon                  Missing semicolon
+ERROR: 56:3    typedef                    expected call-signature: 'openMore' to have a typedef
+
+C:/Users/kurnoolmohammad.m/workspace/bmo-demo/bmoDemo/src/app/pages/things-you-should-know/things-you-should-know.module.ts:21:17
+ERROR: 21:17   typedef                    expected call-signature: 'customHttpLoader' to have a typedef
+ERROR: 22:40   quotemark                  " should be '
+ERROR: 22:65   quotemark                  " should be '
+
+C:/Users/kurnoolmohammad.m/workspace/bmo-demo/bmoDemo/src/app/services/event-handling.service.ts:12:3
+ERROR: 12:3    typedef                    expected call-signature: 'pageFinishedEvent' to have a typedef
+
+C:/Users/kurnoolmohammad.m/workspace/bmo-demo/bmoDemo/src/app/services/server-call.service.ts:14:3
+ERROR: 14:3    typedef                    expected call-signature: 'getApplicatioonId' to have a typedef
+ERROR: 17:21   arrow-return-shorthand     This arrow function body can be simplified by omitting the curly braces and the keyword 'return'.
+ERROR: 20:3    typedef                    expected call-signature: 'getPromoCode' to have a typedef
+ERROR: 23:21   arrow-return-shorthand     This arrow function body can be simplified by omitting the curly braces and the keyword 'return'.
+ERROR: 26:3    typedef                    expected call-signature: 'getAccountOpeningDetails' to have a typedef
+ERROR: 29:21   arrow-return-shorthand     This arrow function body can be simplified by omitting the curly braces and the keyword 'return'.
+ERROR: 32:3    typedef                    expected call-signature: 'postAccountOpeningDetails' to have a typedef
+ERROR: 35:21   arrow-return-shorthand     This arrow function body can be simplified by omitting the curly braces and the keyword 'return'.
+ERROR: 38:3    typedef                    expected call-signature: 'updateAccountOpeningDetails' to have a typedef
+ERROR: 42:21   arrow-return-shorthand     This arrow function body can be simplified by omitting the curly braces and the keyword 'return'.
+ERROR: 45:3    typedef                    expected call-signature: 'getAccountOpeningDetailsById' to have a typedef
+ERROR: 49:21   arrow-return-shorthand     This arrow function body can be simplified by omitting the curly braces and the keyword 'return'.
+
+C:/Users/kurnoolmohammad.m/workspace/bmo-demo/bmoDemo/src/app/shared/side-nav/side-nav.component.ts:14:5
+ERROR: 14:5    align                      parameters are not aligned
+ERROR: 15:5    align                      parameters are not aligned
+ERROR: 31:3    typedef                    expected call-signature: 'onActivate' to have a typedef
+ERROR: 33:11   quotemark                  " should be '
+ERROR: 33:16   semicolon                  Missing semicolon
+ERROR: 34:7    comment-format             comment must start with a space
+ERROR: 35:7    comment-format             comment must start with a space
+ERROR: 38:3    typedef                    expected call-signature: 'ngDoCheck' to have a typedef
+ERROR: 38:3    use-lifecycle-interface    Lifecycle interface DoCheck should be implemented for method ngDoCheck. (https://angular.io/styleguide#style-09-01)
+ERROR: 39:9    prefer-const               Identifier 'path' is never reassigned; use 'const' instead of 'let'.
+ERROR: 40:14   triple-equals              == should be ===
+ERROR: 40:17   quotemark                  " should be '
+ERROR: 41:23   quotemark                  " should be '
+ERROR: 42:21   triple-equals              == should be ===
+ERROR: 42:24   quotemark                  " should be '
+ERROR: 43:23   quotemark                  " should be '
+ERROR: 44:7    align                      statements are not aligned
+ERROR: 44:16   triple-equals              == should be ===
+ERROR: 44:19   quotemark                  " should be '
+ERROR: 45:23   quotemark                  " should be '
+
+Lint errors found in the listed files.
+
+C:\Users\kurnoolmohammad.m\workspace\bmo-demo\bmoDemo>

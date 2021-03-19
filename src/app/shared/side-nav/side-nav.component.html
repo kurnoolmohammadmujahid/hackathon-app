@@ -1,0 +1,24 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer-content>
+        <mat-list>
+            <!-- <mat-list-item [routerLink]="['/things-you-should-know']"> Things You should Know </mat-list-item>
+            <mat-list-item [routerLink]="['/account-selection']"> Account Selection </mat-list-item>
+            <mat-list-item [routerLink]="['/personal-information']"> Personal Information </mat-list-item>
+            <mat-list-item [routerLink]="['/final-review']"> Final Review </mat-list-item> -->
+            <mat-list-item> <i class="pi pi-check"
+                    *ngIf="uiupdate == 'moveStep2' || uiupdate == 'moveStep3' || uiupdate == 'moveStep4'"></i>
+                {{'sidebar.lable1' | translate}}
+            </mat-list-item>
+            <mat-list-item> <i class="pi pi-check" *ngIf="uiupdate == 'moveStep3' || uiupdate == 'moveStep4'"></i>
+                {{'sidebar.lable2' | translate}}
+            </mat-list-item>
+            <mat-list-item> <i class="pi pi-check" *ngIf="uiupdate == 'moveStep4'"></i> {{'sidebar.lable3' |
+                translate}}
+
+            </mat-list-item>
+            <mat-list-item> {{'sidebar.lable4' | translate}}
+            </mat-list-item>
+        </mat-list>
+
+    </mat-drawer-content>
+</mat-drawer-container>

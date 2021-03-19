@@ -1,0 +1,125 @@
+<div id="container">
+    <div id="header">
+        <app-header></app-header>
+    </div>
+    <div id="sidebar">
+        <app-side-nav></app-side-nav>
+    </div>
+    <div id="content">
+        <div class="container fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2><b>What's your name?</b></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Lorem
+                        ipsum,
+                        or lipsum as it is sometimes known, is dummy text used in laying out
+                        print,
+                        graphic or web
+                        designs.</p>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <p><b>Prefix</b> <i class="pi pi-info-circle"
+                            style="font-size: 1rem;color: blue;margin-left: 10px;"></i></p>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <section style="display: table;">
+                        <div class="example-button-row">
+                            <button (click)="prefixSelect('Mr/M')" style="margin-right: 10px;" mat-stroked-button color="primary">Mr/M</button>
+                            <button (click)="prefixSelect('Ms/Mme')" style="margin-right: 10px;" mat-stroked-button color="primary">Ms/Mme</button>
+                            <button (click)="prefixSelect('Mrs')" style="margin-right: 10px;" mat-stroked-button color="primary">Mrs</button>
+                            <button (click)="prefixSelect('Miss')" style="margin-right: 10px;" mat-stroked-button color="primary">Miss</button>
+                            <button (click)="prefixSelect('Dr')" style="margin-right: 10px;" mat-stroked-button color="primary">Dr</button>
+                            <button (click)="prefixSelect('None')" style="margin-right: 10px;" mat-stroked-button color="primary">None</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12 margin-top-10">
+                    <mat-form-field class="example-full-width">
+                        <mat-label>First name</mat-label>
+                        <input matInput [(ngModel)]="fName" [ngModelOptions]="{standalone: true}">
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Initial (Optional)</mat-label>
+                        <input matInput [(ngModel)]="initial" [ngModelOptions]="{standalone: true}">
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Last name</mat-label>
+                        <input matInput [(ngModel)]="lName" [ngModelOptions]="{standalone: true}">
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <h2><b>What's your date of birth?</b></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Lorem
+                        ipsum,
+                        or lipsum as it is sometimes known, is dummy text used in laying out
+                        print,
+                        graphic or web
+                        designs.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <mat-form-field>
+                        <input matInput [matDatepicker]="picker" [(ngModel)]="dob" [ngModelOptions]="{standalone: true}" placeholder="MM | DD | YYYY">
+                        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                        <mat-datepicker #picker></mat-datepicker>
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <h2><b>What's your Social Insurance Number?</b></h2>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <mat-form-field class="example-full-width">
+                        <mat-label>Social Insurance Number</mat-label>
+                        <input matInput [(ngModel)]="sinNumber" [ngModelOptions]="{standalone: true}">
+                    </mat-form-field>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <h2><b>Are you a Canadian citizen?</b></h2>
+                </div>
+            </div>
+            <div class="row margin-top-10">
+                <div class="col-md-12">
+                    <section style="display: table;">
+                        <div class="example-button-row">
+                            <button (click)="citizen('Canadian')" style="margin-right: 10px;" mat-stroked-button color="primary">Yes</button>
+                            <button (click)="citizen('Other Country')" style="margin-right: 10px;" mat-stroked-button color="primary">No</button>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <button (click)="navigate()" pButton style="float: right;margin-bottom: 10px;" pRipple type="button" label="Continue"
+                class="p-button-rounded"></button>
+        </div>
+    </div>
+</div>

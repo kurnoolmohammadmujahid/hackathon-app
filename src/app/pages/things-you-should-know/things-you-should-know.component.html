@@ -1,0 +1,203 @@
+<div id="container">
+    <div id="header">
+        <app-header></app-header>
+    </div>
+    <div id="sidebar">
+        <app-side-nav></app-side-nav>
+    </div>
+    <div id="content">
+        <div class="alert alert-light" role="alert">
+            <span style="float: right">
+                Application ID: {{applicationId}}
+            </span>
+        </div>
+        <h1 class="font-weight-bold center">Things You Should Know</h1>
+        <p class="center">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print,
+            graphic or web
+            designs.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" style="padding: 20px; flex-basis: 25%;">
+                    <div class="card text-center card-width">
+                        <img src="assets/img/defaultImage.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-text price"><strong>Lorem ipsum, or lipsum</strong> as it is sometimes
+                                known, is dummy text
+                                used in laying out print,
+                                graphic or web
+                                designs.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" style="padding: 20px; flex-basis: 25%;">
+                    <div class="card text-center card-width">
+                        <img src="assets/img/defaultImage.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-text price"><strong>Lorem ipsum, or lipsum</strong> as it is sometimes
+                                known, is dummy text
+                                used in laying out print,
+                                graphic or web
+                                designs.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" style="padding: 20px; flex-basis: 25%;">
+                    <div class="card text-center card-width">
+                        <img src="assets/img/defaultImage.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-text price"><strong>Lorem ipsum, or lipsum</strong> as it is sometimes
+                                known, is dummy text
+                                used in laying out print,
+                                graphic or web
+                                designs.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4" style="padding: 20px; flex-basis: 25%;">
+                    <div class="card text-center card-width">
+                        <img src="assets/img/defaultImage.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-text price"><strong>Lorem ipsum, or lipsum</strong> as it is sometimes
+                                known, is dummy text
+                                used in laying out print,
+                                graphic or web
+                                designs.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" style="padding: 20px; flex-basis: 25%;">
+                    <div class="card text-center card-width">
+                        <img class="img-position" src="assets/img/defaultImage.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-text price"><strong>Lorem ipsum, or lipsum</strong> as it is sometimes
+                                known, is dummy text
+                                used in laying out print,
+                                graphic or web
+                                designs.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body" style="background: whitesmoke;">
+                <div (click)="openMore()">
+                    <h2 class="card-title"><b>Get Your Document Ready</b></h2>
+                    <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying
+                        out
+                        print,
+                        graphic or web
+                        designs.</p>
+                    <h2 class="card-title"><b>[This is what you need]</b></h2>
+                </div>
+                <div *ngIf="open == 'yes'">
+                    <p class="card-text">Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying
+                        out
+                        print,
+                        graphic or web
+                        designs.</p>
+                    <table class="table table-borderless">
+                        <thead>
+                            <tr>
+                                <th scope="col">Group A</th>
+                                <th scope="col">Group B</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <i class="pi pi-file" style="font-size: 1rem"></i>Lorem ipsum,
+                                    or lipsum as it is sometimes known, is dummy text used in laying out
+                                    print,
+                                    graphic or web
+                                    designs.
+                                </td>
+                                <td>
+                                    <i class="pi pi-file" style="font-size: 1rem"></i>Lorem ipsum,
+                                    or lipsum as it is sometimes known, is dummy text used in laying out
+                                    print,
+                                    graphic or web
+                                    designs.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="pi pi-file" style="font-size: 1rem"></i>
+                                    Lorem ipsum,
+                                    or lipsum as it is sometimes known, is dummy text used in laying out
+                                    print,
+                                    graphic or web
+                                    designs.
+                                </td>
+                                <td>
+                                    <i class="pi pi-file" style="font-size: 1rem"></i>Lorem ipsum,
+                                    or lipsum as it is sometimes known, is dummy text used in laying out
+                                    print,
+                                    graphic or web
+                                    designs.
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <i class="pi pi-file" style="font-size: 1rem"></i>Lorem ipsum,
+                                    or lipsum as it is sometimes known, is dummy text used in laying out
+                                    print,
+                                    graphic or web
+                                    designs.
+                                </td>
+                                <td>
+                                    <i class="pi pi-file" style="font-size: 1rem"></i>Lorem ipsum,
+                                    or lipsum as it is sometimes known, is dummy text used in laying out
+                                    print,
+                                    graphic or web
+                                    designs.
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h2 class="card-title"><b>Types of accounts</b></h2>
+                <mat-list>
+                    <mat-list-item> <i class="pi pi-check" style="font-size: 1rem;padding-right: 16px;"></i> Lorem
+                        ipsum,
+                        or lipsum as it is sometimes known, is dummy text used in laying out
+                        print,
+                        graphic or web
+                        designs. </mat-list-item>
+                    <mat-list-item> <i class="pi pi-check" style="font-size: 1rem;padding-right: 16px;"></i> Lorem
+                        ipsum,
+                        or lipsum as it is sometimes known, is dummy text used in laying out
+                        print,
+                        graphic or web
+                        designs. </mat-list-item>
+                    <mat-list-item> <i class="pi pi-check" style="font-size: 1rem;padding-right: 16px;"></i> Lorem
+                        ipsum,
+                        or lipsum as it is sometimes known, is dummy text used in laying out
+                        print,
+                        graphic or web
+                        designs. </mat-list-item>
+                    <mat-list-item> <i class="pi pi-check" style="font-size: 1rem;padding-right: 16px;"></i> Lorem
+                        ipsum,
+                        or lipsum as it is sometimes known, is dummy text used in laying out
+                        print,
+                        graphic or web
+                        designs. </mat-list-item>
+                    <mat-list-item> <i class="pi pi-check" style="font-size: 1rem;padding-right: 16px;"></i> Lorem
+                        ipsum,
+                        or lipsum as it is sometimes known, is dummy text used in laying out
+                        print,
+                        graphic or web
+                        designs. </mat-list-item>
+                </mat-list>
+            </div>
+        </div>
+        <button (click)="navigate()" pButton style="float: right;margin-bottom: 10px;" pRipple type="button"
+            label="Continue" class="p-button-rounded"></button>
+    </div>
+</div>

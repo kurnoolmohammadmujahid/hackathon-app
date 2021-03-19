@@ -1,0 +1,11 @@
+{
+    "header": {
+        "title": "Démo BMO"
+    },
+    "sidebar": {
+        "lable1": "Ce que vous devez savoir",
+        "lable2": "Sélection de compte",
+        "lable3": "Renseignements personnels",
+        "lable4": "Examen final"
+    }
+}
